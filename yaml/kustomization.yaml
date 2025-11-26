@@ -12,3 +12,5 @@ resources:
   - namespace-tenant-a.yaml
   - namespace-tenant-b.yaml
   - resourceflavour.yaml
+  - notebook-tenant-a-2nd.yaml 
+  - notebook-tenant-a.yaml
