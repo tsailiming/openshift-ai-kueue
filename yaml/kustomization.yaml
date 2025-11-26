@@ -2,4 +2,13 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
-  - .
+  - clusterqueue-tenant-a.yaml
+  - clusterqueue-tenant-b.yaml
+  - gpu-flavor.yaml
+  - hardwareprofile-tenant-a.yaml
+  - hardwareprofile-tenant-b.yaml
+  - localqueue-tenant-a.yaml
+  - localqueue-tenant-b.yaml
+  - namespace-tenant-a.yaml
+  - namespace-tenant-b.yaml
+  - resourceflavour.yaml
