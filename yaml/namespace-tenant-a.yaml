@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:    
+  name: kueue-tenant-a
+  labels:
+    kueue.openshift.io/managed: 'true'
+    kueue-managed: 'true'
